@@ -6,10 +6,16 @@
   "files": [
     "tsconfig.json"
   ],
+  "scripts": {
+    "release": "bumpp",
+    "prepublishOnly": "pnpm release"
+  },
+  "main": "tsconfig.json",
   "exports": {
     ".": "./tsconfig.json"
   },
   "devDependencies": {
+    "bumpp": "^12.3.0",
     "typescript": "^7.0.2"
   },
   "publishConfig": {
