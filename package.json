@@ -1,0 +1,19 @@
+{
+  "name": "@cuiqg/tsc-config",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "tsconfig.json"
+  ],
+  "exports": {
+    ".": "./tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
