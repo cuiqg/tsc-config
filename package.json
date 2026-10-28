@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "license": "UNLICENSED",
   "type": "module",
+  "repository": "github:cuiqg/tsc-config",
   "files": [
     "tsconfig.json"
   ],
